@@ -1,0 +1,166 @@
+.menu-youtube{
+    display: flex;
+}
+.search-bar{    
+  display: flex;   
+    
+}
+.search{
+    width: 500px;
+    height: 24px;
+    border-radius: 20px ;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-img{
+    width: 10px;
+    height: 10px;
+    
+}
+.voice-search{
+    width: 15px;
+    height: 20px;
+    margin-left: 20px;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    
+    box-sizing: border-box;
+    
+}
+
+.youtube-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+   
+}
+
+.submit{
+    
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom-left-radius:0 ;
+    border-top-left-radius: 0;
+    
+}
+.nav-right{
+    margin-left: 10px;
+}
+.add-video{
+    width: 24px;
+    height: 24px;
+}
+.apps{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.bell{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.video{
+    
+    
+    
+    background-color: beige;
+    width: 100%;
+
+}
+.sidebar
+{
+    display: flex;
+   flex-direction: column;
+    margin-left: 20px;
+    row-gap: 20px;
+    background-color: linen;
+
+    
+}
+.sidebar-content{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-des{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    gap: 4px;
+       
+    margin-left: 15px;
+}
+.video-Title{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: sandybrown;   
+    
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+
+.suggested-img{
+    width: 180px;
+    border: 2px solid grey;
+    border-radius: 8px;   
+    
+}
+
+.description{
+    margin-left: 5px;
+    font-size: 9px;
+    
+}
+.record{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.subscribe{
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 18px;
+
+}
+.like-btn{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 18px  
+    
+    
+}
+.like-dislike{
+    display: flex;
+}
